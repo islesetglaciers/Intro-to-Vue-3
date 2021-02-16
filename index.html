@@ -6,7 +6,7 @@
     <!-- Import Styles -->
     <link rel="stylesheet" href="./assets/styles.css" />
     <!-- Import Vue.js -->
-    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
   </head>
   <body>
     <div id="app">
@@ -23,6 +23,7 @@
             <p v-else-if="inventory <= 10 && inventory > 0">Almost Sold Out</p>
             <p v-else>Out of Stock</p>
             <p v-if="onSale">On Sale!</p>
+            <p :href="url">Made with Vue3</p>
           </div>
         </div>
       </div>
