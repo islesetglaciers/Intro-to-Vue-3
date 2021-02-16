@@ -7,4 +7,4 @@ const app = Vue.createApp({
             url: 'https://v3.vuejs.org/'
         }
     }
-})
+});
